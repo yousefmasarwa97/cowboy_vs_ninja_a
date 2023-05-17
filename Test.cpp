@@ -30,21 +30,7 @@ TEST_SUITE("Point")
         CHECK(p1.distance(p1) == 0);
     }
 
-    // TEST_CASE("Testing print function"){
-    //     Point p1(1, 1);
-    //     Point p2(4, 5);
-    //     Point p3(17, 5);
-    //     Point p4(15, 2);
-    //     string a1=p1.print();
-    //     string a2=p2.print();
-    //     string a3=p3.print();
-    //     string a4=p4.print();
-    //     CHECK_EQ(a1,"(1,1)");
-    //     CHECK_EQ(a2,"(4,5)");
-    //     CHECK_EQ(a3,"(17,5)");
-    //     CHECK_EQ(a1,"(15,2)");
-    
-    // }
+   
    
     TEST_CASE("Testing MoveToWards function")
     {
@@ -70,9 +56,9 @@ TEST_SUITE("Point")
 TEST_SUITE("Character")
 {
     Point first_char_loc(1,1);
-    Character first_char("first_char",first_char_loc,100);
+    Character first_char("first_char",first_char_loc);
     Point second_char_loc(2,2);
-    Character second_char("second_char",second_char_loc,100);
+    Character second_char("second_char",second_char_loc);
     Point cowboy_loc(15,4);
     Cowboy cowboy("andiana jones",cowboy_loc);
     Point youngninja_loc(12,87);
@@ -82,7 +68,7 @@ TEST_SUITE("Character")
     Point oldninja_loc(43.76,23.6);
     OldNinja oldninja("oldninja",oldninja_loc);
     Point ninja_loc(98,5.3);
-    Ninja ninja("ninja",ninja_loc,100);
+    Ninja ninja("ninja",ninja_loc);
     
     TEST_CASE("isAlive() function")
     {
@@ -237,7 +223,7 @@ TEST_SUITE("Ninja")
     Point oldninja_loc(300,300);
     OldNinja oldninja("oldninja",oldninja_loc);
     Point ninja_loc(400,400);
-    Ninja ninja("ninja",ninja_loc,100);
+    Ninja ninja("ninja",ninja_loc);
 
     TEST_CASE("cheking the move function"){
     youngninja.move(&trainedninja);
