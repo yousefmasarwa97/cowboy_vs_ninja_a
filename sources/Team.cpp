@@ -10,5 +10,5 @@ void Team::add(const Character *hero){
 void Team::attack(Team *other){}
 void Team::print(){}
 int Team::stillAlive(){
-    return 1;
+    return 0;
 }

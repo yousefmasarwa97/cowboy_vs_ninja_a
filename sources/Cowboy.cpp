@@ -5,10 +5,10 @@
 
 namespace ariel {}
 
-Cowboy::Cowboy(string name,const Point &location):Character(name,location,110),boolets(6){
+Cowboy::Cowboy(string name,const Point& location):Character(name,location),boolets(6){
 }
 
-Cowboy::~Cowboy(){}
+
 
 void Cowboy::shoot(const Character *enemy){
 }

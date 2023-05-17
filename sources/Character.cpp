@@ -3,16 +3,15 @@
 #include "Point.hpp"
 namespace ariel{}
 
-Character::Character(string name,const Point &location,int hp ):location(location),hp(hp),name(name){
-}
+
 Character::Character(string name,const Point &location):location(location),name(name){
 }
 Character::~Character(){}
 Point Character::getLocation(){
-    return location;
+    return this->location;
 }
 string Character::getName(){
-    return name;
+    return this->name;
 }
 bool Character::isAlive(){
     return true;

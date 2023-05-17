@@ -4,6 +4,6 @@
 namespace ariel{}
 
 TrainedNinja::TrainedNinja(string name,const Point &location)
-:Ninja(name, location,120),speed(12){
+:Ninja(name, location),speed(12){
 
 }

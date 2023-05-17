@@ -8,8 +8,8 @@ class Cowboy : public Character{
     private:
     int boolets;
     public:
-    Cowboy(string name,const Point &lacation);
-    ~Cowboy();
+    Cowboy(string name,const Point& lacation);
+    
     void shoot(const Character* enemy);
     bool hasboolets();
     void reload();

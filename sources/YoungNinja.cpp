@@ -4,6 +4,6 @@
 namespace ariel{}
 
 YoungNinja::YoungNinja(string name,const Point &location)
-:Ninja( name,location,100),speed(12){
+:Ninja( name,location),speed(12){
 
 }

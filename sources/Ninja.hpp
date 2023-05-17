@@ -11,7 +11,7 @@ class Ninja : public Character{
     int speed;
 
     public:
-    Ninja(string name,const Point &location,int hp);
+    Ninja(string name,const Point &location);
     ~Ninja();
     void move(const Character* enemy);
     virtual void slash(const Character* enemy);

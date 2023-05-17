@@ -12,7 +12,7 @@ class Character{
 
 
     public:
-    Character(string name,const Point &location,int );
+    
     Character(string name,const Point &location);
     ~Character();
     bool isAlive();

@@ -5,7 +5,7 @@
 
 namespace ariel {}
 
-Point::Point(double x,double y):x(x),y(y){}
+Point::Point(double x,double y):x(0),y(0){}
 double Point::get_x(){return x;}
 double Point::get_y(){return y;}
 double Point::distance(const Point &other){
